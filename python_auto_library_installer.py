@@ -1,9 +1,9 @@
 ﻿import os
 paketler = ["django","kivy","facebook-sdk","google","pygame","pandas","numpy","schedule","opencv-python","scrapy","requests","wxPython","pillow","SQLAlchemy==1.3.15","beautifulsoup4","twisted","scipy","matplotlib","--upgrade --user pyglet","pywin32","nltk","nose"]
 
-print("****************Oto Paket Yükleyiciye Hoşgeldiniz*********************")
-print("****************Paketleri Otomatik Kurmak İçin 1'e Basın**************")
-print("****************Paketleri El ile Kurmak İçin 2'ye Basın***************")
+print("****************Welcome to Auto Package Installer*********************")
+print("****************Press 1 to Install Packages Automatically**************")
+print("****************Press 2 to Install Packages Manually*******************")
 secim= input("")
 
 if secim =="1":
@@ -16,15 +16,15 @@ if secim =="1":
 		
 		print("*************************************")
 		print("*************************************")
-		print("********** "+ i +" Yüklendi**********") 
+		print("********** "+ i +" Installed**********") 
 		print("*************************************")
 		print("*************************************")
 	
 if secim == "2":
 	while True:
-		paket = input("Paket Adını Yazınız  ")
+		paket = input("Write Package Name  ")
 		os.system("pip install "+paket)
-		print("ÇIKMAK İÇİN CTRL VE C TUŞLARINA AYNI ANDA BASIN")
+		print("Press CTRL and C at the same time to exit")
 
 print("********************İşlem Tamamlandı**************************")
 print("*************AGARTHA CYBER WARRİOR LOJİSTİK*******************")

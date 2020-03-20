@@ -8,7 +8,7 @@ secim= input("")
 
 if secim =="1":
 	print("**************************************************************")
-	print("*************AGARTHA CYBER WARRİOR LOJİSTİK*******************")
+	print("*************INSTAGRAM.COM/NICKZSCHE*******************")
 	print("**************************************************************")
 	for i in paketler:
 		os.system("pip install "+i)
@@ -27,5 +27,5 @@ if secim == "2":
 		print("Press CTRL and C at the same time to exit")
 
 print("********************İşlem Tamamlandı**************************")
-print("*************AGARTHA CYBER WARRİOR LOJİSTİK*******************")
-print("**************************************************************")
+print("*************INSTAGRAM.COM/NICKZSCHE**************************")
+print("************************ŞAHAN HASRET**************************")

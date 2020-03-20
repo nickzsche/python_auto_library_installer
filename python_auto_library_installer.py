@@ -1,5 +1,5 @@
 ﻿import os
-paketler = ["django","kivy","facebook-sdk","google","pygame","pandas","numpy","schedule","opencv-python"]
+paketler = ["django","kivy","facebook-sdk","google","pygame","pandas","numpy","schedule","opencv-python","scrapy","requests","wxPython","pillow","SQLAlchemy==1.3.15","beautifulsoup4","twisted","scipy","matplotlib","--upgrade --user pyglet","pywin32","nltk","nose"]
 
 print("****************Oto Paket Yükleyiciye Hoşgeldiniz*********************")
 print("****************Paketleri Otomatik Kurmak İçin 1'e Basın**************")

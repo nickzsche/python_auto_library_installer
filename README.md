@@ -1,4 +1,7 @@
 # python_auto_library_installer
+
+Windows & Linux
+
 Run python python_auto_library_installer.py
 
 Python auto and manuel library installed.

@@ -26,6 +26,6 @@ if secim == "2":
 		os.system("pip install "+paket)
 		print("Press CTRL and C at the same time to exit")
 
-print("********************İşlem Tamamlandı**************************")
+print("********************Completed**************************")
 print("*************INSTAGRAM.COM/NICKZSCHE**************************")
 print("************************ŞAHAN HASRET**************************")
